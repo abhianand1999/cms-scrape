@@ -15,7 +15,7 @@ import pandas as pd
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(BASE, "data")
-OUT = os.path.join(BASE, "all_specialties.parquet")
+OUT = os.path.join(BASE, "pfs_all_specialties.parquet")
 os.makedirs(DATA, exist_ok=True)
 
 SPECIALTIES = {

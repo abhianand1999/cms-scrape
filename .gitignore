@@ -2,3 +2,6 @@ cms/data/
 pfs/data/
 pfs/.venv/
 cms/.venv/
+.DS_Store
+cms/__pycache__/
+pfs/__pycache__/
